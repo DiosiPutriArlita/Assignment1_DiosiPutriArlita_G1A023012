@@ -24,6 +24,7 @@ Selain itu, Java  memiliki ekosistem yang kuat dengan banyak perpustakaan dan ke
 2.	Untuk mengetahui cara membuat program zodiac dengan java dan cara membuat variable dengan tipe data array
 
 1.4 Manfaat
+-
 1.	Menambah ilmu dan wawasan mengenai pengaplikasian perulangan pada java dan menerapkan if else dalam perulangan
 2.	Meningkatkan pemahaman dalam membuat program zodiac dengan java dan cara membuat variable dengan tipe data array
 3.	Melatih dan meningkatkan kemampuan dalam pemograman
