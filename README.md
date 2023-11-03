@@ -1,14 +1,17 @@
 # Assignment1_DiosiPutriArlita_G1A023012
 A. PENDAHULUAN
+-
 
 1.1	Latar Belakang Pemograman Java
+-
 
 Di era digital yang semakin maju, pemrograman  menjadi salah satu faktor kunci dalam perkembangan teknologi informasi. Bahasa pemrograman Java yang pertama kali diperkenalkan oleh Sun Microsystems pada tahun 1995 telah menjadi salah satu bahasa pemrograman yang paling berpengaruh dan relevan di industri perangkat lunak. Java menjadi populer karena reputasinya sebagai bahasa pemrograman yang kuat, portabel, dan aman, yang menginspirasi banyak pengembang perangkat lunak untuk menggunakannya dalam berbagai proyek.
 Java telah digunakan dalam berbagai konteks pengembangan perangkat lunak, termasuk pengembangan aplikasi desktop, aplikasi web, aplikasi seluler (seperti aplikasi Android), dan bahkan dalam perangkat lunak perusahaan. Keunggulan Java, termasuk portabilitasnya yang luar biasa, menjadikannya ideal untuk proyek yang memerlukan aplikasi yang dapat berjalan di berbagai platform tanpa memerlukan perubahan besar pada sumber kode.
 Selain itu, Java  memiliki ekosistem yang kuat dengan banyak perpustakaan dan kerangka kerja  yang membantu pengembang membuat aplikasi kompleks dengan lebih mudah. Hal ini menjadikan Java  pilihan utama untuk mengembangkan perangkat lunak bisnis, sistem perbankan, aplikasi  jaringan, dan banyak lagi. Tugas ini dimaksudkan untuk mempelajari lebih dalam tentang pemrograman Java, termasuk sintaksisnya, fitur-fitur utama, peran dalam pengembangan aplikasi, dan perkembangan terkini di dunia Java.
  Dengan pemahaman  mendalam tentang Java, pembaca akan dapat mengapresiasi pentingnya bahasa ini dalam dunia teknologi informasi dan bagaimana Java terus berkembang dan mengikuti tren teknologi terkini. 
 
-1.2	Rumusan masalah 
+1.2	Rumusan masalah
+-
 
 1.	Bagaiman cara membuat perulangan pada java?
 2.	Bagaimana membuat program dengan menerapkan if else dalam perulangan while?
@@ -16,6 +19,7 @@ Selain itu, Java  memiliki ekosistem yang kuat dengan banyak perpustakaan dan ke
 4.	Bagaimana cara membuat sebuah variabel dengan tipe data array, dan menampilkan semua nilai dalam variabel tersebut menggunakan perulangan for?
 
 1.3	Tujuan 
+-
 1.	Untuk mengetahui cara membuat perulangan pada java dan menerapkan if else dalam perulangan
 2.	Untuk mengetahui cara membuat program zodiac dengan java dan cara membuat variable dengan tipe data array
 
@@ -23,8 +27,11 @@ Selain itu, Java  memiliki ekosistem yang kuat dengan banyak perpustakaan dan ke
 1.	Menambah ilmu dan wawasan mengenai pengaplikasian perulangan pada java dan menerapkan if else dalam perulangan
 2.	Meningkatkan pemahaman dalam membuat program zodiac dengan java dan cara membuat variable dengan tipe data array
 3.	Melatih dan meningkatkan kemampuan dalam pemograman
+   
 B. Soal dan Pembahasan
-1. Buatlah perulangan hingga 100 menggunakan Java dengan output sebagai berikut:
+-
+SOAL 1. Buatlah perulangan hingga 100 menggunakan Java dengan output sebagai berikut:
+-
     1
     2
     3
@@ -51,7 +58,8 @@ public class perulangan {
     }
 }
 
-Penjelasan Source Code :
+Penjelasan Source Code 
+-
 1.	public class perulangan {: Ini adalah deklarasi class dengan nama "perulangan". Setiap program Java memerlukan setidaknya satu class dengan nama yang sama dengan nama file Java. Class ini akan berisi metode main yang merupakan titik awal eksekusi program.
 2.	public static void main(String[] args) {: Ini adalah deklarasi metode main. Metode main adalah metode yang akan dijalankan ketika program dimulai. Parameter String[] args adalah argumen baris perintah yang dapat diterima oleh program.
 3.	for (int i = 1; i <= 100; i++) {: Ini adalah deklarasi perulangan for. Perulangan ini akan dijalankan dari i sama dengan 1 hingga i kurang dari atau sama dengan 100. Pada setiap iterasi, i akan meningkat sebesar 1 (i++).
@@ -62,7 +70,8 @@ Penjelasan Source Code :
 8.	Dengan demikian, program ini mencetak angka dari 1 hingga 9 ke layar dan kemudian mencetak teks "Diosi Putri Arlita" untuk nilai i dari 10 hingga 100.
 
    
-2.  Buatlah program bebas, dengan menerapkan if else dalam perulangan while.
+SOAL 2.  Buatlah program bebas, dengan menerapkan if else dalam perulangan while.
+-
  
 Jawab :
 
@@ -91,6 +100,7 @@ public class GenapGanjilChecker {
 }
 
 Penjelasan Source Code :
+-
 Kode di atas adalah program Java sederhana yang meminta pengguna memasukkan angka melalui keyboard, dan program tersebut akan menentukan apakah angka tersebut adalah angka genap atau ganjil. Program akan terus berjalan hingga pengguna memasukkan angka 0 untuk keluar. 
 1.	import java.util.Scanner;: Ini adalah pernyataan impor yang mengimpor kelas Scanner dari paket java.util. Kelas Scanner digunakan untuk membaca input dari pengguna.
 2.	public class GenapGanjilChecker {: Ini adalah deklarasi class dengan nama "GenapGanjilChecker". Setiap program Java memerlukan setidaknya satu class dengan nama yang sama dengan nama file Java. Class ini akan berisi metode main yang merupakan titik awal eksekusi program.
@@ -110,8 +120,8 @@ Kode di atas adalah program Java sederhana yang meminta pengguna memasukkan angk
 16.	Program ini akan berjalan terus menerima input angka dari pengguna hingga pengguna memasukkan 0 untuk keluar. Saat program berjalan, program akan memberi tahu apakah angka yang dimasukkan adalah genap atau ganjil.
 
 
-3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan.
-   
+SOAL 3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan.
+-
 Jawab :
 
 import java.util.Scanner;
@@ -165,6 +175,7 @@ public class CekZodiak {
 }
 
 Penjelasan Source Code :
+-
 Kode di atas adalah program Java yang meminta pengguna memasukkan tanggal lahir dalam format DD/MM, dan kemudian program akan menentukan zodiak berdasarkan tanggal lahir yang dimasukkan. 
 1.	import java.util.Scanner;: Ini adalah pernyataan impor yang mengimpor kelas Scanner dari paket java.util. Kelas Scanner digunakan untuk membaca input dari pengguna.
 2.	public class CekZodiak {: Ini adalah deklarasi class dengan nama "CekZodiak". Setiap program Java memerlukan setidaknya satu class dengan nama yang sama dengan nama file Java. Class ini akan berisi metode main yang merupakan titik awal eksekusi program.
@@ -182,7 +193,8 @@ Kode di atas adalah program Java yang meminta pengguna memasukkan tanggal lahir 
 14.	Program ini akan terus berjalan, meminta pengguna memasukkan tanggal lahir, dan kemudian menentukan zodiak berdasarkan tanggal lahir tersebut. Hasil zodiak akan ditampilkan ke layar, dan program akan terus berjalan hingga pengguna mengakhiri program.
 
 
-4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for.
+SOAL 4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for.
+-
    
 Jawab :
 
@@ -200,6 +212,7 @@ public class array {
 
 
 Penjelasan Source Code :
+-
 1.	public class array {: Ini adalah deklarasi class dengan nama "array". Setiap program Java memerlukan setidaknya satu class dengan nama yang sama dengan nama file Java. Class ini akan berisi metode main yang merupakan titik awal eksekusi program.
 2.	public static void main(String[] args) {: Ini adalah deklarasi metode main. Metode main adalah metode yang akan dijalankan ketika program dimulai. Parameter String[] args adalah argumen baris perintah yang dapat diterima oleh program.
 3.	int[] numbers = {2, 4, 8, 16, 32};: Ini adalah deklarasi array dengan nama numbers. Array ini berisi nilai-nilai integer (bilangan bulat) yang diberikan dalam kurung kurawal {}. Jadi, array numbers akan berisi [2, 4, 8, 16, 32].
