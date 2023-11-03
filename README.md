@@ -1,6 +1,8 @@
 # Assignment1_DiosiPutriArlita_G1A023012
 A. PENDAHULUAN
+
 1.1	Latar Belakang Pemograman Java
+
 Di era digital yang semakin maju, pemrograman  menjadi salah satu faktor kunci dalam perkembangan teknologi informasi. Bahasa pemrograman Java yang pertama kali diperkenalkan oleh Sun Microsystems pada tahun 1995 telah menjadi salah satu bahasa pemrograman yang paling berpengaruh dan relevan di industri perangkat lunak. Java menjadi populer karena reputasinya sebagai bahasa pemrograman yang kuat, portabel, dan aman, yang menginspirasi banyak pengembang perangkat lunak untuk menggunakannya dalam berbagai proyek.
 Java telah digunakan dalam berbagai konteks pengembangan perangkat lunak, termasuk pengembangan aplikasi desktop, aplikasi web, aplikasi seluler (seperti aplikasi Android), dan bahkan dalam perangkat lunak perusahaan. Keunggulan Java, termasuk portabilitasnya yang luar biasa, menjadikannya ideal untuk proyek yang memerlukan aplikasi yang dapat berjalan di berbagai platform tanpa memerlukan perubahan besar pada sumber kode.
 Selain itu, Java  memiliki ekosistem yang kuat dengan banyak perpustakaan dan kerangka kerja  yang membantu pengembang membuat aplikasi kompleks dengan lebih mudah. Hal ini menjadikan Java  pilihan utama untuk mengembangkan perangkat lunak bisnis, sistem perbankan, aplikasi  jaringan, dan banyak lagi. Tugas ini dimaksudkan untuk mempelajari lebih dalam tentang pemrograman Java, termasuk sintaksisnya, fitur-fitur utama, peran dalam pengembangan aplikasi, dan perkembangan terkini di dunia Java.
@@ -197,7 +199,6 @@ Penjelasan Source Code :
 3.	int[] numbers = {2, 4, 8, 16, 32};: Ini adalah deklarasi array dengan nama numbers. Array ini berisi nilai-nilai integer (bilangan bulat) yang diberikan dalam kurung kurawal {}. Jadi, array numbers akan berisi [2, 4, 8, 16, 32].
 4.	for (int i = 0; i < numbers.length; i++) {: Ini adalah deklarasi perulangan for. Perulangan ini akan berjalan dari i sama dengan 0 hingga i kurang dari numbers.length. numbers.length adalah panjang (jumlah elemen) dari array numbers.
 5.	System.out.println("Nilai ke-" + i + ": " + numbers[i]);: Di dalam perulangan, program mencetak nilai-nilai dalam array numbers. Pesan yang dicetak mencakup indeks ke-i (dimulai dari 0) dan nilai yang ada di indeks tersebut. Misalnya, jika i adalah 0, maka program akan mencetak "Nilai ke-0: 2", karena 2 adalah nilai yang ada di indeks ke-0 dalam array numbers.
-6.	Dengan demikian, program ini akan mencetak semua nilai dalam array numbers bersama dengan indeksnya, sehingga Anda akan melihat keluaran yang menunjukkan nilai-nilai dalam array seperti ini:
 
 
 
