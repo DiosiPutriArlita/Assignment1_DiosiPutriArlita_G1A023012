@@ -38,6 +38,7 @@ B. Soal dan Pembahasan
     (Your Name)
     (Your Name)
 Jawab :
+
 public class perulangan {
     public static void main(String[] args) {
         for (int i = 1; i <= 100; i++) {
@@ -59,11 +60,13 @@ Penjelasan Source Code :
 6.	else {: Jika kondisi di atas tidak terpenuhi, maka bagian else akan dijalankan.
 7.	System.out.println(" Diosi Putri Arlita ");: Jika i lebih besar dari 9, teks "Diosi Putri Arlita" akan dicetak ke layar. Ini akan terjadi untuk semua nilai i dari 10 hingga 100.
 8.	Dengan demikian, program ini mencetak angka dari 1 hingga 9 ke layar dan kemudian mencetak teks "Diosi Putri Arlita" untuk nilai i dari 10 hingga 100.
-2. Buatlah program bebas, dengan menerapkan if else dalam perulangan while.
+
+   
+2.  Buatlah program bebas, dengan menerapkan if else dalam perulangan while.
+ 
 Jawab :
 
 import java.util.Scanner;
-
 public class GenapGanjilChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -106,11 +109,12 @@ Kode di atas adalah program Java sederhana yang meminta pengguna memasukkan angk
 15.	Setelah pengguna memasukkan angka 0 untuk keluar, program akan keluar dari perulangan while dan mencetak pesan "Terima kasih telah menggunakan program ini!".
 16.	Program ini akan berjalan terus menerima input angka dari pengguna hingga pengguna memasukkan 0 untuk keluar. Saat program berjalan, program akan memberi tahu apakah angka yang dimasukkan adalah genap atau ganjil.
 
+
 3. Buatlah program zodiac dengan menggunakan fitur input dengan hasil menampilkan zodiac sesuai dengan tanggal lahir yang diinputkan.
+   
 Jawab :
 
 import java.util.Scanner;
-
 public class CekZodiak {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -179,6 +183,7 @@ Kode di atas adalah program Java yang meminta pengguna memasukkan tanggal lahir 
 
 
 4. Buatlah sebuah variabel dengan tipe data array, kemudian tampilkan semua nilai dalam variabel tersebut menggunakan perulangan for.
+   
 Jawab :
 
 public class array {
@@ -192,6 +197,7 @@ public class array {
         }
     }
 }
+
 
 Penjelasan Source Code :
 1.	public class array {: Ini adalah deklarasi class dengan nama "array". Setiap program Java memerlukan setidaknya satu class dengan nama yang sama dengan nama file Java. Class ini akan berisi metode main yang merupakan titik awal eksekusi program.
